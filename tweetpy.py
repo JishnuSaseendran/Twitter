@@ -3,11 +3,11 @@ import oauth2 as oauth
 
 name = raw_input('Twitter Name = ')
 
-consumer_key = "9FN6sRd96iKAxX3lJJEIPc8HO"
-consumer_secret = "rv8q3fPwGb5tbJLhLrxYj8O1ErXDAYNPbwr3YuckQDYTilvwqY"
+consumer_key = ""
+consumer_secret = ""
 
-access_token = "130107221-VhCIcNqXER4SQP9FFqOiwv0Z9Zaz5HRtheGqRFWj"
-access_token_secret = "ruKsDTrJN70Ays6A0psUxd7h9bHnNwVVA0s8G8dW82XWk"
+access_token = ""
+access_token_secret = ""
 
 consumer = oauth.Consumer(key=consumer_key, secret=consumer_secret)
 access_token = oauth.Token(key=access_token, secret=access_token_secret)
